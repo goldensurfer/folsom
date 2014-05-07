@@ -8,7 +8,7 @@ DIALYZER_OPTS = -Werror_handling -Wrace_conditions -Wunmatched_returns | fgrep -
 DEPS_DIR = ../../deps
 DEPS = bear meck
 
-dep_bear = https://github.com/goldensurfer/bear master
-dep_meck = git://github.com/eproxus/meck 0.8.1
+dep_bear = https://github.com/goldensurfer/bear 1.2
+dep_meck = https://github.com/goldensurfer/meck 1.2
 
-include ../../erlang.mk
+include erlang.mk
